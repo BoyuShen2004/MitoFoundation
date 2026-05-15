@@ -1,6 +1,0 @@
-{
-  "openai_base_url": "https://chatgpt.com/backend-api/codex",
-  "openai_model": "gpt-5.4",
-  "codex_auth_profile_id": "default",
-  "llm_provider": "chatgpt_codex"
-}
