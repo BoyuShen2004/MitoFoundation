@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2026-04-30T00:00:00.000Z" agent="chat-thread-workflow" version="24.7.0" type="device">
+  <diagram id="hela-run" name="HeLa mito training — plan &amp; run">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1760" pageHeight="1240" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_title" value="Workflow: HeLa mitochondria segmentation — chat plan → pipeline run&#xa;&lt;i&gt;Thread chat_1777589527493 · .mito2_chats.json&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="380" y="16" width="720" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_a" value="&lt;b&gt;A. Conversation / plan&lt;/b&gt; · Plan mode → Agent run" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=12;fontColor=#1a5276" vertex="1" parent="1">
+          <mxGeometry x="32" y="72" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a_start" value="" style="ellipse;html=1;aspect=fixed;fillColor=#1a1a1a;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="108" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="a_prompt" value="&lt;b&gt;User&lt;/b&gt; · chat_mode=&lt;i&gt;plan&lt;/i&gt;&#xa;&quot;Train mito segmentation using HeLa from&#xa;all sources · 1 crop training · 1 crop inference&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="140" y="96" width="320" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="a_plan" value="&lt;b&gt;Assistant&lt;/b&gt; · structured plan for approval&#xa;• Sites: OpenOrganelle, BossDB, LocalHPC&#xa;• Stages: scrape → database → download → training&#xa;• download.target=&lt;i&gt;split&lt;/i&gt; · n_crops=&lt;b&gt;2&lt;/b&gt; (train &lt;b&gt;1&lt;/b&gt;, infer &lt;b&gt;1&lt;/b&gt;)&#xa;• sample_types_include: &lt;b&gt;HeLa&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="500" y="96" width="380" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="a_saved" value="Plan persisted&#xa;&lt;i&gt;saved_pipeline_plans&lt;/i&gt; · id plan_1777589625906&#xa;&quot;Saved plan&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontSize=11;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="920" y="104" width="260" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="a_run" value="&lt;b&gt;User&lt;/b&gt; · chat_mode=&lt;i&gt;agent&lt;/i&gt;&#xa;&quot;Run plan: Saved plan&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="1220" y="108" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="a_pipe_start" value="&lt;b&gt;Pipeline run&lt;/b&gt;&#xa;executor walks sites × stages&#xa;(report notes source workflows)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0;align=center" vertex="1" parent="1">
+          <mxGeometry x="1480" y="100" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="a_start" target="a_prompt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="a_prompt" target="a_plan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="a_plan" target="a_saved">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#333333;" edge="1" parent="1" source="a_saved" target="a_run">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#9673a6;" edge="1" parent="1" source="a_run" target="a_pipe_start">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sec_b" value="&lt;b&gt;B. Execution&lt;/b&gt; · per-site stages then global training &lt;i&gt;(actual outcomes from run report)&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=12;fontColor=#922b21" vertex="1" parent="1">
+          <mxGeometry x="32" y="210" width="720" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_stage" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="200" y="248" width="1040" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_t1" value="Scrape" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="252" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_t2" value="Database / catalogue" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="252" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_t3" value="Download &lt;i&gt;(split crops)&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="252" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_t4" value="Training &lt;i&gt;(global)&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1080" y="252" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_oo" value="&lt;b&gt;OpenOrganelle&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="32" y="308" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="oo_sc" value="&lt;b&gt;OK&lt;/b&gt;&#xa;openorganelle_01&#xa;Scrape finished" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="200" y="288" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oo_db" value="&lt;b&gt;OK&lt;/b&gt;&#xa;inventory updated&#xa;&lt;i&gt;OpenOrganelle.probe.json&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="440" y="288" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oo_dl" value="&lt;b&gt;OK&lt;/b&gt; · labeled&#xa;&lt;b&gt;4&lt;/b&gt; HeLa datasets (jrc_hela-1…bfa)&#xa;2 crops each → &lt;i&gt;imagesTr / labelsTr&lt;/i&gt;&#xa;&lt;i&gt;Dataset001_mito2&lt;/i&gt; · dataset.json synced" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=6" vertex="1" parent="1">
+          <mxGeometry x="720" y="276" width="320" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_bd" value="&lt;b&gt;BossDB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="32" y="408" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="bd_sc" value="&lt;b&gt;OK&lt;/b&gt;&#xa;bossdb_01&#xa;Scrape finished" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="200" y="388" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bd_db" value="&lt;b&gt;OK&lt;/b&gt;&#xa;inventory updated&#xa;&lt;i&gt;BossDB.probe.json&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="440" y="388" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bd_dl" value="&lt;b&gt;OK&lt;/b&gt; but &lt;b&gt;noop&lt;/b&gt;&#xa;Skipped — no datasets matched&#xa;HeLa / filter plan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="720" y="388" width="320" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_lh" value="&lt;b&gt;LocalHPC&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="32" y="508" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="lh_sc" value="&lt;i&gt;Not in workflow&lt;/i&gt;&#xa;(report: DB → DL → train)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontSize=10;align=center;fontColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="200" y="488" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="lh_db" value="&lt;b&gt;OK&lt;/b&gt;&#xa;Catalogue ready&#xa;&lt;b&gt;87&lt;/b&gt; rows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center" vertex="1" parent="1">
+          <mxGeometry x="440" y="488" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lh_dl" value="&lt;b&gt;OK&lt;/b&gt;&#xa;&lt;b&gt;3&lt;/b&gt; catalogue pairs&#xa;train+infer crops → &lt;i&gt;imagesTr/labelsTr&lt;/i&gt;&#xa;and &lt;i&gt;imagesTs/labelsTs&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=6" vertex="1" parent="1">
+          <mxGeometry x="720" y="476" width="320" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oo1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#82b366;" edge="1" parent="1" source="oo_sc" target="oo_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oo2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#82b366;" edge="1" parent="1" source="oo_db" target="oo_dl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bd1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#82b366;" edge="1" parent="1" source="bd_sc" target="bd_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bd2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#d6b656;" edge="1" parent="1" source="bd_db" target="bd_dl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lh1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#999999;dashed=1;" edge="1" parent="1" source="lh_sc" target="lh_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lh2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#82b366;" edge="1" parent="1" source="lh_db" target="lh_dl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gate" value="Downloads phase complete&#xa;(2 succeeded · 1 skipped noop)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="820" y="610" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_to_gate_oo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oo_dl" target="gate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="380" />
+              <mxPoint x="870" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_to_gate_bd" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bd_dl" target="gate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="470" />
+              <mxPoint x="920" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_to_gate_lh" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lh_dl" target="gate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="588" />
+              <mxPoint x="970" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="train" value="&lt;b&gt;Global — nnUNet training&lt;/b&gt;&#xa;&lt;b&gt;OK&lt;/b&gt; · Slurm job &lt;b&gt;2426621&lt;/b&gt;&#xa;&lt;i&gt;Dataset001_mito2 · 3d_fullres&lt;/i&gt;&#xa;logs: &lt;i&gt;5model_training/slurm/logs/train/&lt;/i&gt;&#xa;&lt;i&gt;train_Dataset001_mito2_3d_fullres_2426621.out&lt;/i&gt;…" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="560" y="748" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gate_train" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#9673a6;" edge="1" parent="1" source="gate" target="train">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="" style="ellipse;html=1;aspect=fixed;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#1a1a1a;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="812" y="880" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e_train_end" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="train" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="end_lbl" value="&lt;b&gt;SUCCESS&lt;/b&gt;&#xa;Pipeline complete once&#xa;training is &lt;i&gt;submitted&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="760" y="928" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="note_rep" value="&lt;b&gt;Report counts&lt;/b&gt; (from assistant message):&#xa;Scrape success=&lt;b&gt;2&lt;/b&gt; · Database success=&lt;b&gt;3&lt;/b&gt; · Download success=&lt;b&gt;2&lt;/b&gt;, skipped=&lt;b&gt;1&lt;/b&gt; · Training submitted=&lt;b&gt;1&lt;/b&gt;&#xa;&#xa;&lt;b&gt;Source workflows&lt;/b&gt;: OO &amp; BossDB = scrape→DB→download→train · LocalHPC = DB→download→train" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff9cc;strokeColor=#d6b656;size=12;fontSize=11;align=left;spacingLeft=8" vertex="1" parent="1">
+          <mxGeometry x="1120" y="600" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e_top_to_rows" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#9673a6;endArrow=open;endFill=0;" edge="1" parent="1" source="a_pipe_start" target="oo_sc">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="220" />
+              <mxPoint x="300" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_dispatch" value="dispatch / schedule&#xa;site stages" style="edgeLabel;html=1;fontSize=9;fontColor=#9673a6" vertex="1" connectable="0" parent="e_top_to_rows">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint x="60" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

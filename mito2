@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Start the mitoFoundation2 web UI. Run from repo root: ./mito2
+#
+# Optional env:
+#   MITO2_LOG_LEVEL   uvicorn log level (default: info). Use debug for more terminal output.
+#   MITO2_ACCESS_LOG  set to 1 to log each HTTP request line to the terminal.
+#   MITO2_RELOAD      set to 1 so uvicorn reloads Python on file changes (dev; same as agent.chat_web.main).
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT"
+PY="${MITO2_PYTHON:-/projects/weilab/shenb/miniconda3/envs/mito2/bin/python}"
+[[ -x "${PY}" ]] || PY="$(command -v python3)"
+exec "${PY}" -m agent.chat_web.main "$@"

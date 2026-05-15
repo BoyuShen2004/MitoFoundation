@@ -1,0 +1,48 @@
+.env
+orchestration/config/llm.json
+agent/orchestration/config/llm.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Vendored nnU-Net (install separately)
+5model_training/nnUNet/
+
+# Runtime data and artifacts (HPC-local; do not publish)
+data/nnUNet_raw/
+data/nnUNet_preprocessed/
+data/nnUNet_results/
+data/raw/
+data/outputs/
+data/*.sqlite
+data/registry.sqlite
+data/inventory.sqlite
+data/training/*
+!data/training/.gitkeep
+
+# Pipeline run outputs
+hpc_data_pipeline/**/outputs/
+
+# Chat / local session data
+agent/chat_web/data/

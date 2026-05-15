@@ -1,0 +1,623 @@
+{
+  "site": "OpenOrganelle",
+  "url": "https://openorganelle.janelia.org/datasets",
+  "datasets": {
+    "aic_desmosome-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "aic_desmosome-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "aic_desmosome-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "cam_hum-airway-14500": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "cam_hum-airway-14771-b": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ccl81-covid-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_choroid-plexus-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_cos7-11": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_cos7-1a": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_cos7-1b": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ctl-id8-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ctl-id8-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ctl-id8-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ctl-id8-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ctl-id8-5": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_dauer-larva": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-acc-calyx-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-ellipsoid-body": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-fsb-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-fsb-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-larva-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-mb-1a": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-mb-z0419-20": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-protocerebral-bridge": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_fly-vnc-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-21": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-22": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-bfa": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-h89-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-h89-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hela-nz-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_hum-airway-14953vc": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_jurkat-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_macrophage-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-cerebellum-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-cerebellum-5": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-choroid-plexus-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-cortex-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-dorsal-striatum": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-dorsal-striatum-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-epididymis-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-epididymis-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-granule-neurons-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-granule-neurons-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-granule-neurons-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-guard-hair-follicle": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-heart-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-hippocampus-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-hippocampus-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-hippocampus-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-kidney": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-kidney-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-kidney-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-kidney-glomerulus-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-5": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-6": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-7": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-zon-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-liver-zon-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-meissner-corpuscle-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-meissner-corpuscle-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-nacc-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-nacc-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-nacc-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-nacc-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-pacinian-corpuscle": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-pancreas-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-pancreas-2": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-pancreas-3": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-pancreas-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-sc-zp104a": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-sc-zp105a": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-skin-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_mus-thymus-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_sum159-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_sum159-4": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_ut21-1413-003": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    },
+    "jrc_zf-cardiac-1": {
+      "error": "scrape_s3_probe_skipped",
+      "note": "Run catalog_build S3 probe for paths; appendix PostgREST rows remain in .md",
+      "first_seen_scrape_batch": 7,
+      "first_seen_at_iso": "2026-04-30T23:01:43",
+      "first_seen_markdown_file": "OpenOrganelle.md"
+    }
+  },
+  "scrape_batches": [
+    {
+      "scrape_batch_index": 7,
+      "markdown_file": "OpenOrganelle.md",
+      "started_at_iso": "2026-04-30T23:01:43",
+      "ended_at_iso": "2026-04-30T23:01:43",
+      "live_catalog_source": "postgrest:jwt_project_ref",
+      "dataset_ids_added": [],
+      "note": "registry mode: outputs overwritten from current live catalog; S3 probe skipped at scrape \u2014 run catalog_build"
+    }
+  ],
+  "_registry_note": "JSON cannot have comments. Use scrape_batches (per run) and per-dataset first_seen_* fields to see which scrape added each dataset.",
+  "last_catalog_source": "postgrest:jwt_project_ref",
+  "last_run_at_iso": "2026-04-30T23:01:43",
+  "last_checked_no_new_at_iso": "2026-04-27T18:18:02"
+}

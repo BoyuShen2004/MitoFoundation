@@ -1,0 +1,1943 @@
+{
+  "ok": true,
+  "generated_at": "2026-04-30T23:19:14-04:00",
+  "rows": [
+    {
+      "dataset": "4yv2h5us12g9p22d3a5g_1",
+      "folder": "Kedar_4yv2h",
+      "source": "Kedar_4yv2h",
+      "organism": "4yv2h5us12g9p22d3a5g",
+      "sample_type": "1",
+      "image_file": "4yv2h5US12G9P22d3A5g_1_im.h5",
+      "label_file": "4yv2h5US12G9P22d3A5g_1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "4yv2h5us12g9p22d3a5g_2",
+      "folder": "Kedar_4yv2h",
+      "source": "Kedar_4yv2h",
+      "organism": "4yv2h5us12g9p22d3a5g",
+      "sample_type": "2",
+      "image_file": "4yv2h5US12G9P22d3A5g_2_im.h5",
+      "label_file": "4yv2h5US12G9P22d3A5g_2_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_2_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_2_mito.h5",
+      "dimensions": [
+        119,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "4yv2h5us12g9p22d3a5g_0",
+      "folder": "Kedar_4yv2h",
+      "source": "Kedar_4yv2h",
+      "organism": "4yv2h5us12g9p22d3a5g",
+      "sample_type": "0",
+      "image_file": "4yv2h5US12G9P22d3A5g_0_im.h5",
+      "label_file": "4yv2h5US12G9P22d3A5g_0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_4yv2h/4yv2h5US12G9P22d3A5g_0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_1",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_1_im.h5",
+      "label_file": "kedar_f536_1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_0",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_0_im.h5",
+      "label_file": "kedar_f536_0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_2",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_2_im.h5",
+      "label_file": "kedar_f536_2_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_2_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_2_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_test0",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_test0_im.h5",
+      "label_file": "kedar_f536_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_test0_mito.h5",
+      "dimensions": [
+        512,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_test1",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_test1_im.h5",
+      "label_file": "kedar_f536_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_test1_mito.h5",
+      "dimensions": [
+        512,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kedar_f536_3",
+      "folder": "Kedar_f536",
+      "source": "Kedar_f536",
+      "organism": "kedar",
+      "sample_type": "f536",
+      "image_file": "kedar_f536_3_im.h5",
+      "label_file": "kedar_f536_3_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_3_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/Kedar_f536/kedar_f536_3_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "kasthuri++_train",
+      "folder": "casser20",
+      "source": "casser20",
+      "organism": "kasthuri",
+      "sample_type": "train",
+      "image_file": "kasthuri++_train_im.h5",
+      "label_file": "kasthuri++_train_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/casser20/kasthuri++_train_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/casser20/kasthuri++_train_mito.h5",
+      "dimensions": [
+        85,
+        806,
+        732
+      ],
+      "spacing": [
+        30.0,
+        12.0,
+        12.0
+      ]
+    },
+    {
+      "dataset": "kasthuri++_test",
+      "folder": "casser20",
+      "source": "casser20",
+      "organism": "kasthuri",
+      "sample_type": "test",
+      "image_file": "kasthuri++_test_im.h5",
+      "label_file": "kasthuri++_test_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/casser20/kasthuri++_test_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/casser20/kasthuri++_test_mito.h5",
+      "dimensions": [
+        75,
+        776,
+        667
+      ],
+      "spacing": [
+        30.0,
+        12.0,
+        12.0
+      ]
+    },
+    {
+      "dataset": "jrc_zf-cardiac-1_recon-1_test1",
+      "folder": "cellmap24_cardiac",
+      "source": "cellmap24_cardiac",
+      "organism": "jrc",
+      "sample_type": "cardiac",
+      "image_file": "jrc_zf-cardiac-1_recon-1_test1_im.h5",
+      "label_file": "jrc_zf-cardiac-1_recon-1_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_test1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_zf-cardiac-1_recon-1_test0",
+      "folder": "cellmap24_cardiac",
+      "source": "cellmap24_cardiac",
+      "organism": "jrc",
+      "sample_type": "cardiac",
+      "image_file": "jrc_zf-cardiac-1_recon-1_test0_im.h5",
+      "label_file": "jrc_zf-cardiac-1_recon-1_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_test0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_zf-cardiac-1_recon-1_crop381",
+      "folder": "cellmap24_cardiac",
+      "source": "cellmap24_cardiac",
+      "organism": "jrc",
+      "sample_type": "cardiac",
+      "image_file": "jrc_zf-cardiac-1_recon-1_crop381_im.h5",
+      "label_file": "jrc_zf-cardiac-1_recon-1_crop381_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_crop381_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_crop381_mito.h5",
+      "dimensions": [
+        1000,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_zf-cardiac-1_recon-1_crop380",
+      "folder": "cellmap24_cardiac",
+      "source": "cellmap24_cardiac",
+      "organism": "jrc",
+      "sample_type": "cardiac",
+      "image_file": "jrc_zf-cardiac-1_recon-1_crop380_im.h5",
+      "label_file": "jrc_zf-cardiac-1_recon-1_crop380_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_crop380_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_cardiac/jrc_zf-cardiac-1_recon-1_crop380_mito.h5",
+      "dimensions": [
+        1000,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop182",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop182_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop182_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop182_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop182_mito.h5",
+      "dimensions": [
+        86,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop180",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop180_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop180_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop180_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop180_mito.h5",
+      "dimensions": [
+        86,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop37",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop37_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop37_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop37_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop37_mito.h5",
+      "dimensions": [
+        86,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop43",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop43_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop43_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop43_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop43_mito.h5",
+      "dimensions": [
+        111,
+        128,
+        128
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop38",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop38_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop38_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop38_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop38_mito.h5",
+      "dimensions": [
+        86,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop126",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop126_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop126_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop126_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop126_mito.h5",
+      "dimensions": [
+        86,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_test0",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_test0_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_test0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_test1",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_test1_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_test1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_jurkat-1_recon-1_crop112",
+      "folder": "cellmap24_jurkat",
+      "source": "cellmap24_jurkat",
+      "organism": "human",
+      "sample_type": "jurkat",
+      "image_file": "jrc_jurkat-1_recon-1_crop112_im.h5",
+      "label_file": "jrc_jurkat-1_recon-1_crop112_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop112_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_jurkat/jrc_jurkat-1_recon-1_crop112_mito.h5",
+      "dimensions": [
+        216,
+        125,
+        250
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop230",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop230_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop230_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop230_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop230_mito.h5",
+      "dimensions": [
+        400,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop184",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop184_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop184_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop184_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop184_mito.h5",
+      "dimensions": [
+        400,
+        300,
+        300
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_test0",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_test0_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_test0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop229",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop229_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop229_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop229_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop229_mito.h5",
+      "dimensions": [
+        150,
+        250,
+        350
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_test1",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_test1_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_test1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop156",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop156_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop156_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop156_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop156_mito.h5",
+      "dimensions": [
+        150,
+        150,
+        150
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop231",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop231_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop231_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop231_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop231_mito.h5",
+      "dimensions": [
+        400,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop221",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop221_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop221_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop221_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop221_mito.h5",
+      "dimensions": [
+        300,
+        300,
+        300
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-kidney_recon-1_crop129",
+      "folder": "cellmap24_kidney",
+      "source": "cellmap24_kidney",
+      "organism": "jrc",
+      "sample_type": "kidney",
+      "image_file": "jrc_mus-kidney_recon-1_crop129_im.h5",
+      "label_file": "jrc_mus-kidney_recon-1_crop129_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop129_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_kidney/jrc_mus-kidney_recon-1_crop129_mito.h5",
+      "dimensions": [
+        150,
+        150,
+        150
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-liver_recon-1_test0",
+      "folder": "cellmap24_liver",
+      "source": "cellmap24_liver",
+      "organism": "jrc",
+      "sample_type": "liver",
+      "image_file": "jrc_mus-liver_recon-1_test0_im.h5",
+      "label_file": "jrc_mus-liver_recon-1_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver_recon-1_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver_recon-1_test0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-liver-zon-2_recon-1_crop355",
+      "folder": "cellmap24_liver",
+      "source": "cellmap24_liver",
+      "organism": "jrc",
+      "sample_type": "liver",
+      "image_file": "jrc_mus-liver-zon-2_recon-1_crop355_im.h5",
+      "label_file": "jrc_mus-liver-zon-2_recon-1_crop355_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-2_recon-1_crop355_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-2_recon-1_crop355_mito.h5",
+      "dimensions": [
+        400,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-liver-zon-2_recon-1_crop356",
+      "folder": "cellmap24_liver",
+      "source": "cellmap24_liver",
+      "organism": "jrc",
+      "sample_type": "liver",
+      "image_file": "jrc_mus-liver-zon-2_recon-1_crop356_im.h5",
+      "label_file": "jrc_mus-liver-zon-2_recon-1_crop356_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-2_recon-1_crop356_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-2_recon-1_crop356_mito.h5",
+      "dimensions": [
+        400,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-liver-zon-1_recon-1_crop345",
+      "folder": "cellmap24_liver",
+      "source": "cellmap24_liver",
+      "organism": "jrc",
+      "sample_type": "liver",
+      "image_file": "jrc_mus-liver-zon-1_recon-1_crop345_im.h5",
+      "label_file": "jrc_mus-liver-zon-1_recon-1_crop345_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-1_recon-1_crop345_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver-zon-1_recon-1_crop345_mito.h5",
+      "dimensions": [
+        400,
+        400,
+        400
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_mus-liver_recon-1_test1",
+      "folder": "cellmap24_liver",
+      "source": "cellmap24_liver",
+      "organism": "jrc",
+      "sample_type": "liver",
+      "image_file": "jrc_mus-liver_recon-1_test1_im.h5",
+      "label_file": "jrc_mus-liver_recon-1_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver_recon-1_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_liver/jrc_mus-liver_recon-1_test1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_crop110",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_crop110_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_crop110_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop110_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop110_mito.h5",
+      "dimensions": [
+        210,
+        125,
+        251
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_test0",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_test0_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_test0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_test0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_test0_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_test1",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_test1_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_test1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_test1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_test1_mito.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_crop39",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_crop39_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_crop39_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop39_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop39_mito.h5",
+      "dimensions": [
+        84,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_crop48",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_crop48_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_crop48_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop48_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop48_mito.h5",
+      "dimensions": [
+        108,
+        128,
+        128
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_crop32",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_crop32_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_crop32_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop32_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop32_mito.h5",
+      "dimensions": [
+        84,
+        100,
+        100
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "jrc_macrophage-2_recon-1_crop31",
+      "folder": "cellmap24_macrophage",
+      "source": "cellmap24_macrophage",
+      "organism": "human",
+      "sample_type": "macrophage",
+      "image_file": "jrc_macrophage-2_recon-1_crop31_im.h5",
+      "label_file": "jrc_macrophage-2_recon-1_crop31_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop31_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/cellmap24_macrophage/jrc_macrophage-2_recon-1_crop31_mito.h5",
+      "dimensions": [
+        63,
+        75,
+        75
+      ],
+      "spacing": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_stitched_vol19-vol34_realigned",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "stitched",
+      "image_file": "pinky_stitched_vol19-vol34_realigned_im.h5",
+      "label_file": "pinky_stitched_vol19-vol34_realigned_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol19-vol34_realigned_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol19-vol34_realigned_mito.h5",
+      "dimensions": [
+        132,
+        2432,
+        2432
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol104",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol104",
+      "image_file": "pinky_vol104_im.h5",
+      "label_file": "pinky_vol104_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol104_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol104_mito.h5",
+      "dimensions": [
+        58,
+        1388,
+        1112
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol102",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol102",
+      "image_file": "pinky_vol102_im.h5",
+      "label_file": "pinky_vol102_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol102_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol102_mito.h5",
+      "dimensions": [
+        53,
+        1002,
+        868
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol101",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol101",
+      "image_file": "pinky_vol101_im.h5",
+      "label_file": "pinky_vol101_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol101_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol101_mito.h5",
+      "dimensions": [
+        48,
+        1462,
+        1170
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol503",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol503",
+      "image_file": "pinky_vol503_im.h5",
+      "label_file": "pinky_vol503_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol503_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol503_mito.h5",
+      "dimensions": [
+        132,
+        1024,
+        1024
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_stitched_vol40-vol41",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "stitched",
+      "image_file": "pinky_stitched_vol40-vol41_im.h5",
+      "label_file": "pinky_stitched_vol40-vol41_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol40-vol41_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol40-vol41_mito.h5",
+      "dimensions": [
+        102,
+        1536,
+        1024
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol103",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol103",
+      "image_file": "pinky_vol103_im.h5",
+      "label_file": "pinky_vol103_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol103_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol103_mito.h5",
+      "dimensions": [
+        48,
+        912,
+        862
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_stitched_vol19-vol34",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "stitched",
+      "image_file": "pinky_stitched_vol19-vol34_im.h5",
+      "label_file": "pinky_stitched_vol19-vol34_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol19-vol34_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_stitched_vol19-vol34_mito.h5",
+      "dimensions": [
+        100,
+        2048,
+        2048
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol501",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol501",
+      "image_file": "pinky_vol501_im.h5",
+      "label_file": "pinky_vol501_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol501_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol501_mito.h5",
+      "dimensions": [
+        144,
+        1536,
+        1536
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol401",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol401",
+      "image_file": "pinky_vol401_im.h5",
+      "label_file": "pinky_vol401_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol401_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol401_mito.h5",
+      "dimensions": [
+        132,
+        1024,
+        1024
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pinky_vol502",
+      "folder": "existing/microns",
+      "source": "existing/microns",
+      "organism": "pinky",
+      "sample_type": "vol502",
+      "image_file": "pinky_vol502_im.h5",
+      "label_file": "pinky_vol502_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol502_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/existing/microns/pinky_vol502_mito.h5",
+      "dimensions": [
+        132,
+        1024,
+        1024
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "vol1",
+      "folder": "guay21",
+      "source": "guay21",
+      "organism": "vol1",
+      "sample_type": "vol1",
+      "image_file": "vol1_im.h5",
+      "label_file": "vol1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/guay21/vol1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/guay21/vol1_mito.h5",
+      "dimensions": [
+        24,
+        800,
+        800
+      ],
+      "spacing": [
+        50.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "vol2",
+      "folder": "guay21",
+      "source": "guay21",
+      "organism": "vol2",
+      "sample_type": "vol2",
+      "image_file": "vol2_im.h5",
+      "label_file": "vol2_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/guay21/vol2_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/guay21/vol2_mito.h5",
+      "dimensions": [
+        121,
+        609,
+        400
+      ],
+      "spacing": [
+        50.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "vol0",
+      "folder": "guay21",
+      "source": "guay21",
+      "organism": "vol0",
+      "sample_type": "vol0",
+      "image_file": "vol0_im.h5",
+      "label_file": "vol0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/guay21/vol0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/guay21/vol0_mito.h5",
+      "dimensions": [
+        50,
+        800,
+        800
+      ],
+      "spacing": [
+        50.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "vol0",
+      "folder": "haberl18",
+      "source": "haberl18",
+      "organism": "vol0",
+      "sample_type": "vol0",
+      "image_file": "vol0_im.h5",
+      "label_file": "vol0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/haberl18/vol0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/haberl18/vol0_mito.h5",
+      "dimensions": [
+        20,
+        256,
+        256
+      ],
+      "spacing": [
+        24.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "vol1",
+      "folder": "haberl18",
+      "source": "haberl18",
+      "organism": "vol1",
+      "sample_type": "vol1",
+      "image_file": "vol1_im.h5",
+      "label_file": "vol1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/haberl18/vol1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/haberl18/vol1_mito.h5",
+      "dimensions": [
+        10,
+        256,
+        256
+      ],
+      "spacing": [
+        24.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "neg1",
+      "folder": "han24",
+      "source": "han24",
+      "organism": "neg1",
+      "sample_type": "neg1",
+      "image_file": "neg1_im.h5",
+      "label_file": "neg1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/han24/neg1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/han24/neg1_mito.h5",
+      "dimensions": [
+        374,
+        1110,
+        1056
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pos1",
+      "folder": "han24",
+      "source": "han24",
+      "organism": "pos1",
+      "sample_type": "pos1",
+      "image_file": "pos1_im.h5",
+      "label_file": "pos1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/han24/pos1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/han24/pos1_mito.h5",
+      "dimensions": [
+        371,
+        1640,
+        1632
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pos0",
+      "folder": "han24",
+      "source": "han24",
+      "organism": "pos0",
+      "sample_type": "pos0",
+      "image_file": "pos0_im.h5",
+      "label_file": "pos0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/han24/pos0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/han24/pos0_mito.h5",
+      "dimensions": [
+        362,
+        1756,
+        1650
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pos2",
+      "folder": "han24",
+      "source": "han24",
+      "organism": "pos2",
+      "sample_type": "pos2",
+      "image_file": "pos2_im.h5",
+      "label_file": "pos2_mask.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/han24/pos2_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/han24/pos2_mask.h5",
+      "dimensions": [
+        281,
+        1343,
+        1243
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "neg0",
+      "folder": "han24",
+      "source": "han24",
+      "organism": "neg0",
+      "sample_type": "neg0",
+      "image_file": "neg0_im.h5",
+      "label_file": "neg0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/han24/neg0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/han24/neg0_mito.h5",
+      "dimensions": [
+        265,
+        1204,
+        1204
+      ],
+      "spacing": [
+        40.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "vol1",
+      "folder": "jiang25",
+      "source": "jiang25",
+      "organism": "vol1",
+      "sample_type": "vol1",
+      "image_file": "vol1_im.h5",
+      "label_file": "vol1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/jiang25/vol1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/jiang25/vol1_mito.h5",
+      "dimensions": [
+        100,
+        1000,
+        1000
+      ],
+      "spacing": [
+        40.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "vol2",
+      "folder": "jiang25",
+      "source": "jiang25",
+      "organism": "vol2",
+      "sample_type": "vol2",
+      "image_file": "vol2_im.h5",
+      "label_file": "vol2_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/jiang25/vol2_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/jiang25/vol2_mito.h5",
+      "dimensions": [
+        100,
+        1000,
+        1000
+      ],
+      "spacing": [
+        40.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "vol0",
+      "folder": "jiang25",
+      "source": "jiang25",
+      "organism": "vol0",
+      "sample_type": "vol0",
+      "image_file": "vol0_im.h5",
+      "label_file": "vol0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/jiang25/vol0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/jiang25/vol0_mito.h5",
+      "dimensions": [
+        100,
+        1000,
+        1000
+      ],
+      "spacing": [
+        40.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "lucchi++",
+      "folder": "lucchi",
+      "source": "lucchi",
+      "organism": "lucchi",
+      "sample_type": "lucchi",
+      "image_file": "lucchi++_im.h5",
+      "label_file": "lucchi++_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/lucchi/lucchi++_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/lucchi/lucchi++_mito.h5",
+      "dimensions": [
+        82,
+        768,
+        512
+      ],
+      "spacing": [
+        10.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "dataset": "fly_brain",
+      "folder": "mitoNet_easy",
+      "source": "mitoNet_easy",
+      "organism": "fly",
+      "sample_type": "brain",
+      "image_file": "fly_brain_im.h5",
+      "label_file": "fly_brain_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/fly_brain_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/fly_brain_mito.h5",
+      "dimensions": [
+        256,
+        255,
+        255
+      ],
+      "spacing": [
+        15.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "hela_cell",
+      "folder": "mitoNet_easy",
+      "source": "mitoNet_easy",
+      "organism": "human",
+      "sample_type": "cell",
+      "image_file": "hela_cell_im.h5",
+      "label_file": "hela_cell_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/hela_cell_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/hela_cell_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "glycolytic_muscle",
+      "folder": "mitoNet_easy",
+      "source": "mitoNet_easy",
+      "organism": "glycolytic",
+      "sample_type": "muscle",
+      "image_file": "glycolytic_muscle_im.h5",
+      "label_file": "glycolytic_muscle_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/glycolytic_muscle_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/mitoNet_easy/glycolytic_muscle_mito.h5",
+      "dimensions": [
+        302,
+        383,
+        765
+      ],
+      "spacing": [
+        15.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "salivary_gland",
+      "folder": "mitoNet_hard",
+      "source": "mitoNet_hard",
+      "organism": "salivary",
+      "sample_type": "gland",
+      "image_file": "salivary_gland_im.h5",
+      "label_file": "salivary_gland_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/mitoNet_hard/salivary_gland_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/mitoNet_hard/salivary_gland_mito.h5",
+      "dimensions": [
+        1260,
+        1081,
+        1200
+      ],
+      "spacing": [
+        15.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "c_elegans",
+      "folder": "mitoNet_hard",
+      "source": "mitoNet_hard",
+      "organism": "c_elegans",
+      "sample_type": "elegans",
+      "image_file": "c_elegans_im.h5",
+      "label_file": "c_elegans_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/mitoNet_hard/c_elegans_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/mitoNet_hard/c_elegans_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "dataset": "fib1-4-3-0",
+      "folder": "urocell",
+      "source": "urocell",
+      "organism": "fib1",
+      "sample_type": "4",
+      "image_file": "fib1-4-3-0_im.h5",
+      "label_file": "fib1-4-3-0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-4-3-0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-4-3-0_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "fib1-3-2-1",
+      "folder": "urocell",
+      "source": "urocell",
+      "organism": "fib1",
+      "sample_type": "3",
+      "image_file": "fib1-3-2-1_im.h5",
+      "label_file": "fib1-3-2-1_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-3-2-1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-3-2-1_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "fib1-1-0-3",
+      "folder": "urocell",
+      "source": "urocell",
+      "organism": "fib1",
+      "sample_type": "1",
+      "image_file": "fib1-1-0-3_im.h5",
+      "label_file": "fib1-1-0-3_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-1-0-3_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-1-0-3_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "fib1-3-3-0",
+      "folder": "urocell",
+      "source": "urocell",
+      "organism": "fib1",
+      "sample_type": "3",
+      "image_file": "fib1-3-3-0_im.h5",
+      "label_file": "fib1-3-3-0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-3-3-0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-3-3-0_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "fib1-0-0-0",
+      "folder": "urocell",
+      "source": "urocell",
+      "organism": "fib1",
+      "sample_type": "0",
+      "image_file": "fib1-0-0-0_im.h5",
+      "label_file": "fib1-0-0-0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-0-0-0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/urocell/fib1-0-0-0_mito.h5",
+      "dimensions": [
+        256,
+        256,
+        256
+      ],
+      "spacing": [
+        15.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "mitoem-h_den_train",
+      "folder": "wei20",
+      "source": "wei20",
+      "organism": "mitoem",
+      "sample_type": "h",
+      "image_file": "mitoEM-H_den_train_im.h5",
+      "label_file": "mitoEM-H_den_train_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_train_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_train_mito.h5",
+      "dimensions": [
+        500,
+        4096,
+        4096
+      ],
+      "spacing": [
+        30.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "mitoem-h_den_test",
+      "folder": "wei20",
+      "source": "wei20",
+      "organism": "mitoem",
+      "sample_type": "h",
+      "image_file": "mitoEM-H_den_test_im.h5",
+      "label_file": "mitoEM-H_den_test_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_test_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_test_mito.h5",
+      "dimensions": [
+        500,
+        4096,
+        4096
+      ],
+      "spacing": [
+        30.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "mitoem-h_den",
+      "folder": "wei20",
+      "source": "wei20",
+      "organism": "mitoem",
+      "sample_type": "h",
+      "image_file": "mitoEM-H_den_im.h5",
+      "label_file": "mitoEM-H_den_mask.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wei20/mitoEM-H_den_mask.h5",
+      "dimensions": [
+        500,
+        4096,
+        4096
+      ],
+      "spacing": [
+        30.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "dataset": "pc2-0",
+      "folder": "wilson19",
+      "source": "wilson19",
+      "organism": "pc2",
+      "sample_type": "0",
+      "image_file": "pc2-0_im.h5",
+      "label_file": "pc2-0_mask.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wilson19/pc2-0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wilson19/pc2-0_mask.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "pc9-0",
+      "folder": "wilson19",
+      "source": "wilson19",
+      "organism": "pc9",
+      "sample_type": "0",
+      "image_file": "pc9-0_im.h5",
+      "label_file": "pc9-0_mask.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wilson19/pc9-0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wilson19/pc9-0_mask.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "pc9-1",
+      "folder": "wilson19",
+      "source": "wilson19",
+      "organism": "pc9",
+      "sample_type": "1",
+      "image_file": "pc9-1_im.h5",
+      "label_file": "pc9-1_mask.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/wilson19/pc9-1_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/wilson19/pc9-1_mask.h5",
+      "dimensions": [
+        256,
+        1024,
+        1024
+      ],
+      "spacing": [
+        16.0,
+        16.0,
+        16.0
+      ]
+    },
+    {
+      "dataset": "vol0",
+      "folder": "xiao18",
+      "source": "xiao18",
+      "organism": "vol0",
+      "sample_type": "vol0",
+      "image_file": "vol0_im.h5",
+      "label_file": "vol0_mito.h5",
+      "image_path": "/projects/weilab/dataset/MitoLE/xiao18/vol0_im.h5",
+      "label_path": "/projects/weilab/dataset/MitoLE/xiao18/vol0_mito.h5",
+      "dimensions": [
+        31,
+        2104,
+        2156
+      ],
+      "spacing": [
+        50.0,
+        8.0,
+        8.0
+      ]
+    }
+  ],
+  "filters": {
+    "folders": [
+      "Kedar_4yv2h",
+      "Kedar_f536",
+      "casser20",
+      "cellmap24_cardiac",
+      "cellmap24_jurkat",
+      "cellmap24_kidney",
+      "cellmap24_liver",
+      "cellmap24_macrophage",
+      "existing/microns",
+      "guay21",
+      "haberl18",
+      "han24",
+      "jiang25",
+      "lucchi",
+      "mitoNet_easy",
+      "mitoNet_hard",
+      "urocell",
+      "wei20",
+      "wilson19",
+      "xiao18"
+    ],
+    "sources": [
+      "Kedar_4yv2h",
+      "Kedar_f536",
+      "casser20",
+      "cellmap24_cardiac",
+      "cellmap24_jurkat",
+      "cellmap24_kidney",
+      "cellmap24_liver",
+      "cellmap24_macrophage",
+      "existing/microns",
+      "guay21",
+      "haberl18",
+      "han24",
+      "jiang25",
+      "lucchi",
+      "mitoNet_easy",
+      "mitoNet_hard",
+      "urocell",
+      "wei20",
+      "wilson19",
+      "xiao18"
+    ],
+    "organisms": [
+      "4yv2h5us12g9p22d3a5g",
+      "c_elegans",
+      "fib1",
+      "fly",
+      "glycolytic",
+      "human",
+      "jrc",
+      "kasthuri",
+      "kedar",
+      "lucchi",
+      "mitoem",
+      "neg0",
+      "neg1",
+      "pc2",
+      "pc9",
+      "pinky",
+      "pos0",
+      "pos1",
+      "pos2",
+      "salivary",
+      "vol0",
+      "vol1",
+      "vol2"
+    ],
+    "sample_types": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "brain",
+      "cardiac",
+      "cell",
+      "elegans",
+      "f536",
+      "gland",
+      "h",
+      "jurkat",
+      "kidney",
+      "liver",
+      "lucchi",
+      "macrophage",
+      "muscle",
+      "neg0",
+      "neg1",
+      "pos0",
+      "pos1",
+      "pos2",
+      "stitched",
+      "test",
+      "train",
+      "vol0",
+      "vol1",
+      "vol101",
+      "vol102",
+      "vol103",
+      "vol104",
+      "vol2",
+      "vol401",
+      "vol501",
+      "vol502",
+      "vol503"
+    ]
+  }
+}

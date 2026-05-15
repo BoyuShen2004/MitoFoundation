@@ -1,0 +1,39 @@
+# pip install -r requirements.txt
+
+# Web UI
+streamlit>=1.40.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+ruamel.yaml>=0.18.0
+python-dotenv>=1.0.0
+
+# Imaging / I/O (stages that use this repo)
+nibabel>=5.2.0
+tifffile>=2024.8.0
+numpy>=1.26.0
+scipy>=1.11.0
+scikit-image>=0.22.0
+h5py>=3.10.0
+pynrrd>=1.0.0
+imageio>=2.34.0
+tqdm>=4.66.0
+connected-components-3d>=3.12.0
+# PyPI tops out at 7.x (there is no 10.x); OpenOrganelle readers use fibsem_tools.io.read
+fibsem-tools>=7.0.0,<8
+# Required for contour generation parity with summer/nnUNet/MitoAnnotation/generate_contour.py
+git+https://github.com/PytorchConnectomics/pytorch_connectomics.git
+
+# Web scraper agent (1web_scraper_01: python -m master.agent)
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+s3fs>=2024.2.0
+playwright>=1.48.0
+# Optional env / Playwright: see 1web_scraper_01/guides/README.md
+
+# AWS SDK compatibility guardrail:
+# s3fs pulls aiobotocore (async botocore stack). If boto3 is present in the env,
+# keep it on the same botocore line to avoid resolver/runtime conflicts.
+boto3>=1.41.0,<1.41.6
+botocore>=1.41.0,<1.41.6

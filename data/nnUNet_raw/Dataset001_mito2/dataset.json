@@ -1,0 +1,15 @@
+{
+  "channel_names": {
+    "0": "em"
+  },
+  "labels": {
+    "background": 0,
+    "mitochondria": 1,
+    "contour": 2
+  },
+  "numTraining": 0,
+  "file_ending": ".nii.gz",
+  "name": "Dataset001_mito2",
+  "description": "Clean reset template for Dataset001_mito2",
+  "mito2_global_crop_profiles": {}
+}

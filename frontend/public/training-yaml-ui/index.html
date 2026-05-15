@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mito training — YAML config</title>
+    <link rel="stylesheet" href="/training-yaml-ui/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">Stage 5 · PyTC training config</div>
+      <div class="path" id="configPath"></div>
+    </header>
+
+    <nav class="steps" id="stepsNav">
+      <button type="button" class="step-tab active" data-step="0">1 · Defaults & model</button>
+      <button type="button" class="step-tab" data-step="1">2 · Train & monitor</button>
+      <button type="button" class="step-tab" data-step="2">3 · Data paths</button>
+    </nav>
+
+    <main id="main">
+      <p class="hint" id="loadHint">Loading…</p>
+      <div id="panels" class="hidden"></div>
+    </main>
+
+    <footer class="footer">
+      <button type="button" class="btn primary" id="saveBtn">Save to YAML</button>
+      <span class="msg" id="msg"></span>
+    </footer>
+
+    <template id="tpl-step1">
+      <section class="card">
+        <h2>Pipeline &amp; system</h2>
+        <label>pipeline_profile <select data-path="default.pipeline_profile"></select></label>
+        <label>system.profile <select data-path="default.system.profile"></select></label>
+      </section>
+      <section class="card">
+        <h2>Model</h2>
+        <label>arch.profile <select data-path="default.model.arch.profile"></select></label>
+        <div class="row3">
+          <label>input_size D <input type="number" data-triple="default.model.input_size" data-i="0" /></label>
+          <label>H <input type="number" data-triple="default.model.input_size" data-i="1" /></label>
+          <label>W <input type="number" data-triple="default.model.input_size" data-i="2" /></label>
+        </div>
+        <div class="row3">
+          <label>output_size D <input type="number" data-triple="default.model.output_size" data-i="0" /></label>
+          <label>H <input type="number" data-triple="default.model.output_size" data-i="1" /></label>
+          <label>W <input type="number" data-triple="default.model.output_size" data-i="2" /></label>
+        </div>
+        <label>monai.dropout <input type="number" step="0.01" data-path="default.model.monai.dropout" /></label>
+      </section>
+      <section class="card">
+        <h2>Data defaults</h2>
+        <label>dataloader.profile <select data-path="default.data.dataloader.profile"></select></label>
+        <div class="row3">
+          <label>patch Z <input type="number" data-triple="default.data.dataloader.patch_size" data-i="0" /></label>
+          <label>Y <input type="number" data-triple="default.data.dataloader.patch_size" data-i="1" /></label>
+          <label>X <input type="number" data-triple="default.data.dataloader.patch_size" data-i="2" /></label>
+        </div>
+        <label>batch_size <input type="number" min="1" data-path="default.data.dataloader.batch_size" /></label>
+        <label>augmentation.profile <select data-path="default.data.augmentation.profile"></select></label>
+      </section>
+      <section class="card">
+        <h2>Inference (defaults)</h2>
+        <div class="row3">
+          <label>sliding window Z <input type="number" data-triple="default.inference.sliding_window.window_size" data-i="0" /></label>
+          <label>Y <input type="number" data-triple="default.inference.sliding_window.window_size" data-i="1" /></label>
+          <label>X <input type="number" data-triple="default.inference.sliding_window.window_size" data-i="2" /></label>
+        </div>
+        <label class="inline"><input type="checkbox" data-path="default.inference.test_time_augmentation.enabled" data-bool /> TTA enabled</label>
+        <label>TTA flip_axes <select data-path="default.inference.test_time_augmentation.flip_axes"></select></label>
+        <label class="inline"><input type="checkbox" data-path="default.inference.evaluation.enabled" data-bool /> evaluation enabled</label>
+        <fieldset class="metrics">
+          <legend>evaluation.metrics</legend>
+          <label class="inline"><input type="checkbox" value="dice" data-metric /> dice</label>
+          <label class="inline"><input type="checkbox" value="jaccard" data-metric /> jaccard</label>
+          <label class="inline"><input type="checkbox" value="accuracy" data-metric /> accuracy</label>
+        </fieldset>
+      </section>
+    </template>
+
+    <template id="tpl-step2">
+      <section class="card">
+        <h2>Optimization</h2>
+        <label>optimization.profile <select data-path="train.optimization.profile"></select></label>
+        <label>n_steps_per_epoch <input type="number" data-path="train.optimization.n_steps_per_epoch" /></label>
+        <label>max_epochs <input type="number" data-path="train.optimization.max_epochs" /></label>
+      </section>
+      <section class="card">
+        <h2>Logging</h2>
+        <label>loss_every_n_steps <input type="number" data-path="train.monitor.logging.scalar.loss_every_n_steps" /></label>
+        <label>images.log_every_n_epochs <input type="number" data-path="train.monitor.logging.images.log_every_n_epochs" /></label>
+        <label>images.max_images <input type="number" data-path="train.monitor.logging.images.max_images" /></label>
+        <label>images.num_slices <input type="number" data-path="train.monitor.logging.images.num_slices" /></label>
+      </section>
+      <section class="card">
+        <h2>Checkpoints</h2>
+        <label>save_top_k <input type="number" data-path="train.monitor.checkpoint.save_top_k" /></label>
+        <label>monitor <input data-path="train.monitor.checkpoint.monitor" /></label>
+        <label>dirpath <input data-path="train.monitor.checkpoint.dirpath" /></label>
+      </section>
+      <section class="card">
+        <h2>Physical spacing</h2>
+        <p class="muted-note">
+          For <code>mito_openorganelle_foundation.yaml</code>, voxel spacing is fixed at <strong>16 nm</strong> isotropic
+          (Z, Y, X) in training code — it is not edited here.
+        </p>
+      </section>
+    </template>
+
+    <template id="tpl-step3">
+      <section class="card">
+        <h2>Register from training data</h2>
+        <p class="muted-note">
+          Scan <code>data/training/images</code> and <code>data/training/labels</code> for paired
+          <code>*.h5</code> files (same basename in both folders). Updates this config's train list, clears
+          validation and test entries, and saves the YAML. Spacing stays 16 nm at train time.
+        </p>
+        <button type="button" class="btn primary" id="syncPreprocessedBtn">
+          Sync paired H5 volumes into YAML
+        </button>
+        <span class="msg" id="syncMsg"></span>
+      </section>
+      <section class="card">
+        <h2>Train volumes</h2>
+        <p class="muted-note">Basenames only; full paths are applied when you run PyTC.</p>
+        <label>image paths (one per line) <textarea rows="6" data-lines="train.data.train.image"></textarea></label>
+        <label>label paths (one per line) <textarea rows="6" data-lines="train.data.train.label"></textarea></label>
+      </section>
+    </template>
+
+    <script src="/training-yaml-ui/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+{
+  "download_script": "Stage ``3data_downloader`` generates ``3data_downloader/outputs/download_{site}.py`` with ``--n-crops``, ``--spacing-nm``, ``--voxel-nm``, ``--centers-json``, ``--label-centers-json``. Execution requires explicit user approval.",
+  "web_scrape": "Use stage ``1web_scraper_01`` to fetch a landing page. **Workspace mode** (Pipeline Studio or ``agent.py URL --workspace``) writes ``1web_scraper_01/websites/<slug>/site.md`` and probe JSON under ``1web_scraper_01/outputs/<slug>.probe.json``. If the URL has no scheme, tooling defaults to ``http://`` (``https://`` is still allowed). If blocked, report HTTP status and stop."
+}
