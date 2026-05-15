@@ -14,19 +14,24 @@
 
 set -euo pipefail
 
-source /projects/weilab/shenb/miniconda3/etc/profile.d/conda.sh
-conda activate nnunetv2
+MITO2_PROJECT_ROOT="${MITO2_PROJECT_ROOT:-/projects/weilab/shenb/mitoFoundation2}"
+export nnUNet_raw="${nnUNet_raw:-${MITO2_PROJECT_ROOT}/data/nnUNet_raw}"
+export nnUNet_preprocessed="${nnUNet_preprocessed:-${MITO2_PROJECT_ROOT}/data/nnUNet_preprocessed}"
+export nnUNet_results="${nnUNet_results:-${MITO2_PROJECT_ROOT}/data/nnUNet_results}"
+
+source "${CONDA_SH:-/projects/weilab/shenb/miniconda3/etc/profile.d/conda.sh}"
+conda activate "${NNUNET_CONDA_ENV:-nnunetv2}"
 echo "Using Python at: $(which python)"
 
 echo "Inference job started at $(date)"
 START_TIME=$SECONDS
 
-cd /projects/weilab/shenb/nnUNet/nnUNet/nnunetv2
+cd "${MITO2_PROJECT_ROOT}/5model_training/nnUNet"
 
 echo ">>> Starting nnUNet prediction <<<"
 nnUNetv2_predict \
-    -i /projects/weilab/shenb/mitoFoundation2/data/nnUNet_raw/Dataset001_mito2/imagesTs \
-    -o /projects/weilab/shenb/mitoFoundation2/data/outputs/bc \
+    -i "${MITO2_PROJECT_ROOT}/data/nnUNet_raw/Dataset001_mito2/imagesTs" \
+    -o "${MITO2_PROJECT_ROOT}/data/outputs/bc" \
     -d 001 \
     -c 3d_fullres \
     -f all \

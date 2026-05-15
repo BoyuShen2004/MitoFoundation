@@ -14,14 +14,20 @@
 
 set -euo pipefail
 
-source /projects/weilab/shenb/miniconda3/etc/profile.d/conda.sh
-conda activate nnunetv2
+# Customize for your cluster account and conda install.
+MITO2_PROJECT_ROOT="${MITO2_PROJECT_ROOT:-/projects/weilab/shenb/mitoFoundation2}"
+export nnUNet_raw="${nnUNet_raw:-${MITO2_PROJECT_ROOT}/data/nnUNet_raw}"
+export nnUNet_preprocessed="${nnUNet_preprocessed:-${MITO2_PROJECT_ROOT}/data/nnUNet_preprocessed}"
+export nnUNet_results="${nnUNet_results:-${MITO2_PROJECT_ROOT}/data/nnUNet_results}"
+
+source "${CONDA_SH:-/projects/weilab/shenb/miniconda3/etc/profile.d/conda.sh}"
+conda activate "${NNUNET_CONDA_ENV:-nnunetv2}"
 echo "Using Python at: $(which python)"
 
 echo "Job started at $(date)"
 START_TIME=$SECONDS
 
-cd /projects/weilab/shenb/nnUNet/nnUNet/nnunetv2
+cd "${MITO2_PROJECT_ROOT}/5model_training/nnUNet"
 
 echo ">>> Starting nnUNet planning + preprocessing... <<<"
 nnUNetv2_plan_and_preprocess -d 001 --verify_dataset_integrity
